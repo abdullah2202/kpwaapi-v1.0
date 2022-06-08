@@ -4,6 +4,9 @@ import os
 app = Flask(__name__)
 
 
+@app.route('/')
+def home_page():
+   return '<div>Hello World!</div>'
 
 
 
